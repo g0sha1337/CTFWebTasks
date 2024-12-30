@@ -1,0 +1,212 @@
+html, body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #222;
+  color: #fff !important;
+}
+
+.loginContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: fit-content;
+  margin-top: -200px;
+}
+
+.login h1 {
+  color: #000;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+}
+
+.login h4 {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+
+}
+.login a {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-align: center;
+  color: #C79EED;
+  margin-top: 20px;
+}
+
+.loginForgot {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-align: center;
+  color: #C79EED;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.login input {
+  margin-bottom: 10px;
+  background: #fff;
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 340px;
+  font-size: 13px;
+  
+
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2),
+    0 1px 1px rgba(255, 255, 255, 0.2);
+  -webkit-transition: box-shadow 0.5s ease;
+  -moz-transition: box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  -ms-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+
+.login input:focus {
+  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4),
+    0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.login button {
+  height: 35px;
+  width: 340px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  border: 1px #ccc solid;
+}
+
+.login button:focus {
+  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4),
+    0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.login form {
+  width: fit-content;
+}
+
+.header {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+  background-color: #3B1767;
+  color: #fff;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headerLeftBlock {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.headerRightBlock {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.headerTitle {
+  font-size: 22px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.headerNav {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 3px;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  background-color: #222;
+  color: #fff;
+  height: 90vh;
+}
+
+.mainContent {
+  margin: 50px;
+  margin-top: 30px;
+}
+
+.mainTitle {
+  font-size: 38px;
+  margin: auto;
+}
+
+.mainText {
+  font-size: 18px;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.recoverBlock {
+  display: flex;
+}
+
+.recoverBlock input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  text-align: center;
+}
+
+.flag {
+  font-size: 30px;
+  color:#3B1767;
+
+}
+
+.inputContainer {
+
+  display: flex;
+
+  flex-direction: column; /* Располагаем элементы в колонку */
+
+  width: 340px; /* Ширина контейнера, чтобы соответствовать ширине полей ввода */
+
+}
+
+
+.inputContainer input {
+
+  margin-bottom: 10px; /* Отступ между полями ввода */
+
+}

@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  php:
+    build:
+      context: .
+    ports:
+      - "23007:23007"
+    command: php -S 0.0.0.0:23007
