@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoldLogin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <center>
+    <h1>Вход в систему</h1>
+    
+    </center>
+    <form id="loginForm">
+        <label for="username">Логин:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Пароль:</label> 
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Войти</button>
+    </form>
+    <center>
+    <h4>Вы можете авторизоваться в качестве гостя:   guest:guest </h4>
+    </center>
+    <div id="message"></div> 
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Отправляем запрос на сервер
+            const response = await fetch('/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ username, password })
+            });
+
+            const data = await response.json();
+            if (response.ok) {
+                document.getElementById('message').innerHTML = `
+                    <h2>Авторизация успешна!</h2>
+                    <h3>Теперь вы можете посмотреть <a href="/flag">флаг</a>.</h3>
+                `;
+            } else {
+                alert(data.message); // [HINT] Ты Дуэйн Джонсон?
+            }
+        });
+    </script>
+</body>
+</html>
