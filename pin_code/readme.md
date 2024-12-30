@@ -5,4 +5,4 @@
 sudo docker-compose up --build
 ```
 
-Web page will appears on 127.0.0.1:23007 
+Web page will appears on http://127.0.0.1:23007 
