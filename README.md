@@ -3,7 +3,7 @@
 CTF WEB tasks written by g0sha1337 (me :3)
 (without writeups, only sourses)
 
-All sensitive data like flags, tokens and passwords are altered. 
+All sensitive data like flags, tokens and creditionals are altered. 
 
 ### All tasks with preview:
 
