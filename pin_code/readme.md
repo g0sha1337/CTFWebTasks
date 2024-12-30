@@ -1,5 +1,7 @@
 # Task pin_code
 
+![preview](preview.png)
+
 
 ```bash
 sudo docker-compose up --build
