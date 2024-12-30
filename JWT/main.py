@@ -3,7 +3,7 @@ import jwt
 import datetime
 
 app = Flask(__name__)
-app.secret_key = 'seniorfluffy'  # Secret key of rockyou token
+app.secret_key = 'seniorfluffy'  # Secret key of jwt token
 
 
 users = {
