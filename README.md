@@ -11,3 +11,6 @@ All sensitive data like flags, tokens and creditionals are altered.
 - [Pin_code](https://github.com/g0sha1337/CTFWebTasks/tree/main/pin_code)
 
 - [JWT](https://github.com/g0sha1337/CTFWebTasks/tree/main/JWT)
+
+- [Сoupon_giveaway](https://github.com/g0sha1337/CTFWebTasks/tree/main/coupon_giveaway)
+
