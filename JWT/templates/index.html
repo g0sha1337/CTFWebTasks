@@ -7,23 +7,30 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
+
     <center>
-    <h1>Вход в систему</h1>
-    
+        <h1>Вход в систему</h1>
     </center>
     <form id="loginForm">
-        <label for="username">Логин:</label>
-        <input type="text" id="username" name="username" required>
-        <br>
-        <label for="password">Пароль:</label> 
-        <input type="password" id="password" name="password" required>
-        <br>
-        <button type="submit">Войти</button>
+
+        <div>
+            <label for="username">Логин:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="password">Пароль:</label> 
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <button type="submit">Войти</button>
+        </div>
     </form>
+    
     <center>
-    <h4>Вы можете авторизоваться в качестве гостя:   guest:guest </h4>
+        <h4>Вы можете авторизоваться в качестве гостя: guest:guest</h4>
     </center>
     <div id="message"></div> 
+
     <script>
         document.getElementById('loginForm').addEventListener('submit', async function(event) {
             event.preventDefault();
