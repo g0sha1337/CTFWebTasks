@@ -8,11 +8,11 @@ All sensitive data like flags, tokens and creditionals are altered.
 
 ### All tasks list:
 
-- [Pin_code](https://github.com/g0sha1337/CTFWebTasks/tree/main/pin_code)
+- [Pin_code](https://github.com/g0sha1337/CTFWebTasks/tree/main/pin_code) (bruteforce by requests)
 
-- [JWT](https://github.com/g0sha1337/CTFWebTasks/tree/main/JWT)
+- [Bold_login](https://github.com/g0sha1337/CTFWebTasks/tree/main/bold_login) (Attacks on JWT token)
 
-- [Сoupon_giveaway](https://github.com/g0sha1337/CTFWebTasks/tree/main/coupon_giveaway)
+- [Сoupon_giveaway](https://github.com/g0sha1337/CTFWebTasks/tree/main/coupon_giveaway) (sqli)
 
-- [Nft_marketplace](https://github.com/g0sha1337/CTFWebTasks/tree/main/nft_marketplace)
+- [Nft_marketplace](https://github.com/g0sha1337/CTFWebTasks/tree/main/nft_marketplace) (sqli)
 
