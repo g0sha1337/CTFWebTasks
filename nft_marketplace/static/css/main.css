@@ -1,0 +1,393 @@
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  
+  font-family: 'Bebas Neue', sans-serif; 
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.login h1 {
+  color: #000;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.login h4 {
+  color: #000;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.login a {
+  color: #000;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-align: center;
+}
+.login input {
+  width: 100%;
+  margin-bottom: 10px;
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  /* box-shadow: inset 0 -5px 45px rgba(255, 255, 255, 0.956),
+    0 1px 1px #000000; */
+  transition: box-shadow 0.5s ease, border 0.3s ease, background-color 0.3s ease; /* Добавлено для плавного перехода */
+}
+
+.login input:focus {  
+  box-shadow: inset 0 -5px 45px #ffffff,
+    0 1px 1px #d755ed;
+}
+
+.login input:hover {
+  border: 1px solid #d755ed; /* Фиолетовая обводка при наведении */
+  background-color: rgba(215, 85, 237, 0.1); /* Легкий фиолетовый фон при наведении */
+  box-shadow: inset 0 -5px 45px rgba(255, 255, 255, 0.956),
+    0 1px 5px #d755ed; /* Увеличенная тень при наведении */
+}
+
+.login button {
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  border: 1px #ffffff solid;
+  transition: background-color 0.3s ease, border 0.3s ease; /* Добавлено для плавного перехода */
+}
+
+.login button:hover {
+  background-color: #d755ed; /* Фиолетовый фон кнопки при наведении */
+  color: #fff; /* Изменение цвета текста на белый для контраста */
+  border: 1px solid #d755ed; /* Фиолетовая обводка кнопки при наведении */
+}
+
+/* .login button:focus {
+  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4),
+    0 1px 1px rgba(255, 255, 255, 0.2);
+} */
+
+.text-with-underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header {
+  border-bottom: 1px #ccc solid;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLeftBlock {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.headerRightBlock {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 28px; /* Увеличиваем размер шрифта */
+
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.headerRightBlock:hover {
+
+  color: #d755ed; /* Цвет текста при наведении */
+
+}
+.headerTitle {
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+
+
+.logout {
+  margin-top: 140px;
+}
+
+.logout a{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  border: 1px #ccc solid;
+  width: 100px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+/* .nav {
+
+}
+
+.navContent {
+  display: flex;
+  margin: 10px;
+}
+
+.navItem {
+  margin: 24px;
+  cursor: pointer;
+  color: #0071bc;
+  width: 200px; /* Установите желаемую ширину 
+  padding: 10px; /* Добавьте отступы для увеличения области клика 
+  display: inline-block; /* Чтобы элементы располагались в строку 
+  transition: color 0.3s; /* Плавный переход цвета 
+}
+
+.navItem:hover {
+  color: #d755ed; /* Измените цвет при наведении 
+} */
+.nav {
+  background-color: #ffffff; /* Цвет фона для навигации */
+  padding: 10px 20px; /* Отступы для навигации */
+}
+
+.navContent {
+  display: flex; /* Используем flexbox для расположения элементов */
+  
+  flex-direction: row; /* Располагаем элементы в строку */
+  align-items: center; /* Центрируем элементы по вертикали */
+}
+
+.navItem {
+  position: relative; /* Для позиционирования псевдоэлемента */
+  color: #000000; /* Цвет текста ссылки */
+  text-decoration: none; /* Убираем подчеркивание */
+  padding: 15px 20px; /* Увеличенные отступы для увеличения области клика */
+  font-size: 18px; /* Увеличиваем размер шрифта */
+  margin-right: 30px; /* Отступ между ссылками */
+  transition: color 0.3s; /* Плавный переход цвета */
+}
+
+
+.headerNav {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  
+  color: #000000;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #000;
+  font-size: 48px;
+  margin-top: 3px;
+}
+
+.navContent a {
+
+  font-family: 'Bebas Neue', sans-serif; /* Применяем жирный шрифт с прямыми линиями */
+
+  font-weight: 650; /* Устанавливаем вес шрифта */
+
+  color: #000000; /* Цвет текста ссылки */
+
+  text-decoration: none; /* Убираем подчеркивание */
+
+  padding: 15px 20px; /* Увеличенные отступы для увеличения области клика */
+
+  font-size: 28px; /* Увеличиваем размер шрифта */
+
+  margin-right: 30px; /* Отступ между ссылками */
+
+  transition: color 0.3s; /* Плавный переход цвета */
+
+}
+
+.navItem::after {
+  content: ''; /* Псевдоэлемент для анимации */
+  position: absolute; /* Абсолютное позиционирование */
+  left: 0; /* Начинаем с левой стороны */
+  bottom: -5px; /* Сдвигаем линию немного ниже текста */
+  width: 100%; /* Ширина псевдоэлемента равна ширине ссылки */
+  height: 2px; /* Высота линии */
+  background: #d755ed; /* Цвет линии */
+  transform: scaleX(0); /* Начальное состояние: линия скрыта */
+  transition: transform 0.3s ease; /* Плавный переход для анимации */
+}
+
+.navItem:hover {
+  color: #d755ed; /* Изменяем цвет текста при наведении */
+}
+
+.navItem:hover::after {
+  transform: scaleX(1); /* При наведении: показываем линию */
+}
+
+.toolsList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.toolsItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px #ccc solid;
+  border-radius: 10px;
+  width: 40%;
+  margin: auto;
+  height: 200px;
+  margin-top: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.toolsItem:hover {
+
+  border-color: #d755ed; /* Цвет обводки при наведении */
+
+}
+
+.toolsItemImage {
+  border-right: 1px #ccc solid;
+  height: 200px;
+}
+
+.toolsItemTitle {
+  border-right: 1px #ccc solid;
+  width: 30%;
+  text-align: center;
+  font-size: 26px;
+}
+
+.toolsItemText {
+  width: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer {
+
+  height: 60px; /* Фиксированная высота футера */
+
+  border-top: 1px #ccc solid;
+
+  display: flex;
+
+  align-items: center; /* Центрирование содержимого по вертикали */
+
+  justify-content: center; /* Центрирование содержимого по горизонтали */
+
+  background-color: #ffffff; /* Цвет фона для футера */
+
+}
+
+
+.footerContent {
+
+  text-align: center;
+
+}
+.container {
+
+  display: flex;
+
+  flex-direction: column; /* Располагаем элементы вертикально */
+
+  min-height: 75%; /* Минимальная высота контейнера - 100% высоты окна */
+
+}
+
+
+.toolsList {
+
+  flex: 1; /* Позволяет этому блоку занимать оставшееся пространство */
+
+}
+
+
+.mainContent {
+
+  display: flex; /* Используем flexbox для расположения элементов в строку */
+
+  align-items: center; /* Центрируем элементы по вертикали */
+
+  margin: 20px; /* Отступы вокруг блока */
+  flex: 1;
+
+}
+
+
+.imageBlock {
+
+  flex: 1; /* Занимает 1 часть доступного пространства */
+
+  min-width: 300px; /* Минимальная ширина блока с изображением */
+
+}
+
+
+.imageBlock img {
+
+  width: 100%; /* Изображение будет занимать 100% ширины родительского блока */
+
+  height: auto; /* Высота будет автоматически подстраиваться */
+
+  border-radius: 10px; /* Закругленные углы изображения */
+
+}
+
+
+.textBlock {
+
+  flex: 1; /* Занимает 1 часть доступного пространства */
+
+  padding-left: 20px; /* Отступ слева для текста */
+
+}
+
+
+.textBlock h2 {
+
+  font-size: 30px; /* Размер заголовка */
+
+  margin-bottom: 10px; /* Отступ снизу для заголовка */
+
+}
+
+
+.textBlock p {
+
+  font-size: 24px; /* Размер текста */
+
+  line-height: 1.5; /* Межстрочный интервал */
+
+}
