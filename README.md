@@ -14,3 +14,5 @@ All sensitive data like flags, tokens and creditionals are altered.
 
 - [Сoupon_giveaway](https://github.com/g0sha1337/CTFWebTasks/tree/main/coupon_giveaway)
 
+- [Nft_marketplace](https://github.com/g0sha1337/CTFWebTasks/tree/main/nft_marketplace)
+
