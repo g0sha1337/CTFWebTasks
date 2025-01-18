@@ -10,7 +10,7 @@ All sensitive data like flags, tokens and creditionals are altered.
 
 - [Pin_code](https://github.com/g0sha1337/CTFWebTasks/tree/main/pin_code) (bruteforce by requests)
 
-- [Bold_login](https://github.com/g0sha1337/CTFWebTasks/tree/main/bold_login) (Attacks on JWT token)
+- [Bold_login](https://github.com/g0sha1337/CTFWebTasks/tree/main/bold_login) (JWT token)
 
 - [Сoupon_giveaway](https://github.com/g0sha1337/CTFWebTasks/tree/main/coupon_giveaway) (sqli)
 
