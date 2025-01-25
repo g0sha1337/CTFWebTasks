@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     } elseif (isset($_POST['num1']) && isset($_POST['num2']) && isset($_POST['num3']) && isset($_POST['num4'])) {
         if ($_SESSION['authenticated'] && $_POST['num1'] == "1" && $_POST['num2'] == "3" && $_POST['num3'] == "3" && $_POST['num4'] == "7") {
-            $_SESSION['flag'] = "PolyCTF{test_flag}";
+            $_SESSION['flag'] = "PolyCTF{fake_flag}";
             header('Location: admin.php');
             exit(); 
         } else {

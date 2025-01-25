@@ -21,7 +21,7 @@
       $_SESSION['auth'] = $username;
 
       if($username = 'admin') {
-        echo "PolyCTF{test_flag}";
+        echo "PolyCTF{fake_flag}";
       }
       exit();
     } else {

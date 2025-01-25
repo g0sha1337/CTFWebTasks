@@ -16,3 +16,6 @@ All sensitive data like flags, tokens and creditionals are altered.
 
 - [Nft_marketplace](https://github.com/g0sha1337/CTFWebTasks/tree/main/nft_marketplace) (sqli)
 
+- [Fatal_error](https://github.com/g0sha1337/CTFWebTasks/tree/main/fatal_error) (js)
+
+

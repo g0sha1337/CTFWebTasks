@@ -46,7 +46,7 @@ def protected():
     try:
         payload = jwt.decode(token, app.secret_key, algorithms=['HS256'])
         if payload['user'] == "admin":
-            return jsonify({'message': 'PolyCTF{test_flag}'})
+            return jsonify({'message': 'PolyCTF{fake_flag}'})
         else:
             return jsonify({'message': 'Only user \'admin\' have access to this page!'})
     except jwt.ExpiredSignatureError:
