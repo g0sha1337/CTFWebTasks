@@ -3,7 +3,7 @@
 All my self-written ctf web tasks for our board [polyctf.ru](https://polyctf.ru/)  
 (without writeups, only sourses)
 
-All sensitive data like flags, tokens and creditionals are altered. 
+All sensitive data like flags, tokens, secret-keys and creditionals are altered. 
 
 
 ### All tasks list:
