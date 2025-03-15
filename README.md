@@ -18,4 +18,6 @@ All sensitive data like flags, tokens, secret-keys and creditionals are altered.
 
 - [Fatal_error](https://github.com/g0sha1337/CTFWebTasks/tree/main/fatal_error) (js)
 
+- [Cookie_club](https://github.com/g0sha1337/CTFWebTasks/tree/main/cookie_club) (cookies)
+
 
