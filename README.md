@@ -1,6 +1,6 @@
 # CTFWebTasks
 
-All my self-written ctf web tasks for our board [polyctf.ru](https://polyctf.ru/)  
+All my self-written ctf web tasks for our board [duckerz.ru][(https://duckerz.ru/))  
 (without writeups, only sourses)
 
 All sensitive data like flags, tokens, secret-keys and creditionals are altered. 
