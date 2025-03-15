@@ -13,7 +13,7 @@ def check_clicks():
   data = request.get_json()
 
   if data['clicks'] >= 600000:
-    return jsonify("PolyCTF{fake_flag}"), 200
+    return jsonify("DUCKERZ{fake_flag}"), 200
   else:
     return jsonify("Try harder!"), 200
 
