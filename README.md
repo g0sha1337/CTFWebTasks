@@ -20,4 +20,6 @@ All sensitive data like flags, tokens, secret-keys and creditionals are altered.
 
 - [Cookie_club](https://github.com/g0sha1337/CTFWebTasks/tree/main/cookie_club) (cookies)
 
+- [Polygon](https://github.com/g0sha1337/CTFWebTasks/tree/main/polygon) (requests)
+
 
